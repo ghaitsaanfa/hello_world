@@ -1,8 +1,5 @@
 import streamlit as st
 
-st.title("Dashboard")
-st.subheader("Ini adalah tampilan Tes di halaman Dashboard")
-
-# Konten Tes
-st.write("Tes berhasil ditampilkan di halaman Dashboard.")
-
+st.set_page_config(page title="Dashboard")
+st.title("Tes")
+st.sidebar.header("Dashboard")
